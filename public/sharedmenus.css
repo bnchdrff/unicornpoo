@@ -1,0 +1,259 @@
+/* shared menus */
+
+/* header */
+
+#shared-header a:link,
+#shared-header a:visited {
+	font-family: "TitilliumText22LRegular", Verdana, Geneva, "DejaVu Sans",	sans-serif;
+	color: black;
+	text-decoration: none;
+}
+
+#shared-header a:active,
+#shared-header a:hover {
+	font-family: "TitilliumText22LRegular", Verdana, Geneva, "DejaVu Sans",	sans-serif;
+	color: #90F;
+	text-decoration: none;
+}
+
+#shared-header {
+	margin: 0;
+	padding: 7px 0 5px 40px;
+	text-transform: uppercase;
+	font-family: "TitilliumText22LRegular", Verdana, Geneva, "DejaVu Sans",	sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: normal;
+	background: white;
+}
+
+#shared-header li {
+	display: inline;
+	margin: 0 0 0 6px;
+	padding: 2px 6px 0 0;
+}
+
+/* header search form */
+
+#shared-header form {
+	display: inline;
+}
+
+#shared-header input[type="text"] {
+	border: 0;
+	border-bottom: 1px dashed black;
+}
+
+#shared-header input[type="submit"] {
+	border: 1px solid black;
+	background: white;
+	border-radius: 0;
+	text-transform: uppercase;
+	font-family: "TitilliumText22LMedium", Arial, sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	padding: 4px 7px 1px;
+}
+
+#shared-header #search-chooser {
+	display: none;
+}
+
+/* shared footer */
+
+#shared-footer {
+	background: black;
+	color: #8c8c8c;
+	border-top: 20px solid black;
+	padding: 0 0 0 30px;
+	font: 16px/20px normal "TitilliumText22LRegular", Verdana, Geneva, "DejaVu Sans",	sans-serif;
+}
+
+#shared-footer a {
+	font-family: "TitilliumText22LRegular", Verdana, Geneva, "DejaVu Sans",	sans-serif;
+}
+
+#impressum {
+	margin-bottom: 15px;
+}
+
+#shared-footer a:link,
+#shared-footer a:visited {
+	color: white;
+	background: inherit;
+}
+
+#shared-footer a:active,
+#shared-footer a:hover {
+	color: #90f;
+	background: inherit;
+}
+
+#shared-footer small {
+	display: block;
+	font-size: 11px;
+	line-height: 16px;
+	text-transform: uppercase;
+}
+
+#shared-footer strong {
+	font-family: "TitilliumText22LRegular", Verdana, Geneva, "DejaVu Sans",	sans-serif;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 17px;
+}
+
+#shared-footer h3 {
+	font-size: 20px;
+	line-height: 22px;
+	color: #90f;
+}
+
+/* footer */
+
+
+#shared-footer ul li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	list-style-image: none;
+}
+
+#shared-footer > ul#impressum > li {
+	width: 220px;
+	display: inline;
+	float: left;
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#amptalk-recent > li > a,
+#ampnews-recent > li > a,
+#a365-recent > li > a {
+	font-size: 13px;
+	line-height: 15px;
+}
+
+#shared-footer > ul > li > span {
+	text-transform: uppercase;
+}
+
+#shared-footer ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#shared-footer ul ul {
+	padding-top: 10px;
+}
+
+#shared-footer a:link,
+#shared-footer a:visited {
+	color: white;
+	text-decoration: none;
+} 
+
+#shared-footer a:active,
+#shared-footer a:hover {
+	color: #9000ff;
+	text-decoration: underline;
+} 
+
+#shared-footer h4 {
+	font: 13px/15px normal "TitilliumText22LRegular";
+	text-transform: uppercase;
+	color: #8c8c8c;
+}
+
+ul#footer-networklinks { 
+	margin-top: 15px;
+	border-top: 1px solid #8c8c8c;
+	padding: 15px 0;
+	font-size: 16px;
+} 
+ 
+#footer-networklinks li { 
+	display: inline; 
+}
+
+#footer-networklinks a {
+	text-transform: uppercase;
+	font-size: 13px;
+	line-height: 15px;
+	padding-left: 36px;
+}
+
+/* articles */
+
+#syndicated-news article {
+  margin: 0 10px;
+  padding: 14px 0;
+  border-bottom: 1px dashed #000;
+  clear: both;
+  min-height: 160px;
+}
+
+#syndicated-news article:last-child {
+  border-bottom: 0 none;
+}
+
+#syndicated-news article .lead-image {
+  display: block;
+  float: left;
+  padding: 10px 20px 10px 0;
+}
+
+#syndicated-news article .deets {
+  padding: 0;
+	height: 140px;
+	vertical-align: middle;
+	display: table-cell;
+}
+
+#syndicated-news article .news-title a:link,
+#syndicated-news article .news-title a:visited {
+  font: 22px/33px "TitilliumText22LRegular", Arial, sans-serif;
+  text-decoration: none;
+  border-bottom: 2px solid #00FF00;
+  color: #000;
+}
+
+#syndicated-news article .news-title a:active,
+#syndicated-news article .news-title a:hover {
+  color: #9900FF;
+}
+
+#syndicated-news article .body {
+  margin-top: 20px;
+  line-height: 150%;
+}
+
+#syndicated-news article .date {
+  text-transform: uppercase;
+}
+
+#more-syndicated {
+	display: block;
+  margin: 10px;
+	color: black;
+  text-transform: uppercase;
+}
+
+#shared-footer ul#impressum .feed-icon {
+  color: #8c8c8c;
+  display: block;
+  margin-top: 10px;
+  font-size: 11px;
+  text-indent: -9999px;
+  width: 30px;
+  height: 30px;
+  background: url(images/rss.png) no-repeat;
+}
+
+/* hide a365 for now */
+
+#footer-box-a365 {
+  display: none !important;
+}
