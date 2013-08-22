@@ -153,13 +153,13 @@
 #shared-footer a:visited {
 	color: white;
 	text-decoration: none;
-} 
+}
 
 #shared-footer a:active,
 #shared-footer a:hover {
 	color: #9000ff;
 	text-decoration: underline;
-} 
+}
 
 #shared-footer h4 {
 	font: 13px/15px normal "TitilliumText22LRegular";
@@ -167,15 +167,15 @@
 	color: #8c8c8c;
 }
 
-ul#footer-networklinks { 
+ul#footer-networklinks {
 	margin-top: 15px;
 	border-top: 1px solid #8c8c8c;
 	padding: 15px 0;
 	font-size: 16px;
-} 
- 
-#footer-networklinks li { 
-	display: inline; 
+}
+
+#footer-networklinks li {
+	display: inline;
 }
 
 #footer-networklinks a {
