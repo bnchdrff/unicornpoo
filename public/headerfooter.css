@@ -17,8 +17,9 @@
 }
 
 #shared-header {
+  height: 51px;
   margin: 0;
-  padding: 7px 0 5px 40px;
+  padding: 7px 132px 5px 40px;
   text-transform: uppercase;
   font-family: "TitilliumText22LRegular", Verdana, Geneva, "DejaVu Sans",  sans-serif;
   font-size: 12px;
