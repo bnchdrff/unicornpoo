@@ -4,185 +4,188 @@
 
 #shared-header a:link,
 #shared-header a:visited {
-	font-family: "TitilliumText22LRegular", Verdana, Geneva, "DejaVu Sans",	sans-serif;
-	color: black;
-	text-decoration: none;
+  font-family: "TitilliumText22LRegular", Verdana, Geneva, "DejaVu Sans",  sans-serif;
+  color: black;
+  text-decoration: none;
 }
 
 #shared-header a:active,
 #shared-header a:hover {
-	font-family: "TitilliumText22LRegular", Verdana, Geneva, "DejaVu Sans",	sans-serif;
-	color: #90F;
-	text-decoration: none;
+  font-family: "TitilliumText22LRegular", Verdana, Geneva, "DejaVu Sans",  sans-serif;
+  color: #90F;
+  text-decoration: none;
 }
 
 #shared-header {
-	margin: 0;
-	padding: 7px 0 5px 40px;
-	text-transform: uppercase;
-	font-family: "TitilliumText22LRegular", Verdana, Geneva, "DejaVu Sans",	sans-serif;
-	font-size: 12px;
-	line-height: 18px;
-	font-weight: normal;
-	background: white;
+  margin: 0;
+  padding: 7px 0 5px 40px;
+  text-transform: uppercase;
+  font-family: "TitilliumText22LRegular", Verdana, Geneva, "DejaVu Sans",  sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: normal;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-image: url(images/logo.png);
 }
 
 #shared-header li {
-	display: inline;
-	margin: 0 0 0 6px;
-	padding: 2px 6px 0 0;
+  display: inline;
+  margin: 0 0 0 6px;
+  padding: 2px 6px 0 0;
 }
 
 /* header search form */
 
 #shared-header form {
-	display: inline;
+  display: inline;
 }
 
 #shared-header input[type="text"] {
-	border: 0;
-	border-bottom: 1px dashed black;
+  border: 0;
+  border-bottom: 1px dashed black;
 }
 
 #shared-header input[type="submit"] {
-	border: 1px solid black;
-	background: white;
-	border-radius: 0;
-	text-transform: uppercase;
-	font-family: "TitilliumText22LMedium", Arial, sans-serif;
-	font-weight: normal;
-	font-size: 12px;
-	padding: 4px 7px 1px;
+  border: 1px solid black;
+  background: white;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-family: "TitilliumText22LMedium", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  padding: 4px 7px 1px;
 }
 
 #shared-header #search-chooser {
-	display: none;
+  display: none;
 }
 
 /* shared footer */
 
 #shared-footer {
-	background: black;
-	color: #8c8c8c;
-	border-top: 20px solid black;
-	padding: 0 0 0 30px;
-	font: 16px/20px normal "TitilliumText22LRegular", Verdana, Geneva, "DejaVu Sans",	sans-serif;
+  background: black;
+  color: #8c8c8c;
+  border-top: 20px solid black;
+  padding: 0 0 0 30px;
+  font: 16px/20px normal "TitilliumText22LRegular", Verdana, Geneva, "DejaVu Sans",  sans-serif;
 }
 
 #shared-footer a {
-	font-family: "TitilliumText22LRegular", Verdana, Geneva, "DejaVu Sans",	sans-serif;
+  font-family: "TitilliumText22LRegular", Verdana, Geneva, "DejaVu Sans",  sans-serif;
 }
 
 #impressum {
-	margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 #shared-footer a:link,
 #shared-footer a:visited {
-	color: white;
-	background: inherit;
+  color: white;
+  background: inherit;
 }
 
 #shared-footer a:active,
 #shared-footer a:hover {
-	color: #90f;
-	background: inherit;
+  color: #90f;
+  background: inherit;
 }
 
 #shared-footer small {
-	display: block;
-	font-size: 11px;
-	line-height: 16px;
-	text-transform: uppercase;
+  display: block;
+  font-size: 11px;
+  line-height: 16px;
+  text-transform: uppercase;
 }
 
 #shared-footer strong {
-	font-family: "TitilliumText22LRegular", Verdana, Geneva, "DejaVu Sans",	sans-serif;
-	font-weight: normal;
-	font-size: 15px;
-	line-height: 17px;
+  font-family: "TitilliumText22LRegular", Verdana, Geneva, "DejaVu Sans",  sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
 }
 
 #shared-footer h3 {
-	font-size: 20px;
-	line-height: 22px;
-	color: #90f;
+  font-size: 20px;
+  line-height: 22px;
+  color: #90f;
 }
 
 /* footer */
 
 
 #shared-footer ul li {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-	list-style-image: none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  list-style-image: none;
 }
 
 #shared-footer > ul#impressum > li {
-	width: 220px;
-	display: inline;
-	float: left;
-	position: relative;
-	margin-left: 10px;
-	margin-right: 10px;
+  width: 220px;
+  display: inline;
+  float: left;
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #amptalk-recent > li > a,
 #ampnews-recent > li > a,
 #a365-recent > li > a {
-	font-size: 13px;
-	line-height: 15px;
+  font-size: 13px;
+  line-height: 15px;
 }
 
 #shared-footer > ul > li > span {
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 #shared-footer ul {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 #shared-footer ul ul {
-	padding-top: 10px;
+  padding-top: 10px;
 }
 
 #shared-footer a:link,
 #shared-footer a:visited {
-	color: white;
-	text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 #shared-footer a:active,
 #shared-footer a:hover {
-	color: #9000ff;
-	text-decoration: underline;
+  color: #9000ff;
+  text-decoration: underline;
 }
 
 #shared-footer h4 {
-	font: 13px/15px normal "TitilliumText22LRegular";
-	text-transform: uppercase;
-	color: #8c8c8c;
+  font: 13px/15px normal "TitilliumText22LRegular";
+  text-transform: uppercase;
+  color: #8c8c8c;
 }
 
 ul#footer-networklinks {
-	margin-top: 15px;
-	border-top: 1px solid #8c8c8c;
-	padding: 15px 0;
-	font-size: 16px;
+  margin-top: 15px;
+  border-top: 1px solid #8c8c8c;
+  padding: 15px 0;
+  font-size: 16px;
 }
 
 #footer-networklinks li {
-	display: inline;
+  display: inline;
 }
 
 #footer-networklinks a {
-	text-transform: uppercase;
-	font-size: 13px;
-	line-height: 15px;
-	padding-left: 36px;
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 15px;
+  padding-left: 36px;
 }
 
 /* articles */
@@ -207,9 +210,9 @@ ul#footer-networklinks {
 
 #syndicated-news article .deets {
   padding: 0;
-	height: 140px;
-	vertical-align: middle;
-	display: table-cell;
+  height: 140px;
+  vertical-align: middle;
+  display: table-cell;
 }
 
 #syndicated-news article .news-title a:link,
@@ -235,9 +238,9 @@ ul#footer-networklinks {
 }
 
 #more-syndicated {
-	display: block;
+  display: block;
   margin: 10px;
-	color: black;
+  color: black;
   text-transform: uppercase;
 }
 
