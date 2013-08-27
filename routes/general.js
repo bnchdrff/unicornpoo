@@ -7,8 +7,8 @@ var fs = require('fs');
 var ejs = require('ejs');
 
 exports.index = function(req, res) {
-  fs.readFile(__dirname + '/../hornoftheunicorn.txt', function(err, data) {
-    res.setHeader('Content-Type', 'text/plain');
+  fs.readFile(__dirname + '/../hornoftheunicorn.html', function(err, data) {
+    res.setHeader('Content-Type', 'text/html');
     res.setHeader('Content-Length', data.length);
     res.end(data);
   });

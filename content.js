@@ -26,7 +26,39 @@ var PooContent = {
 			title: "AMPStore",
 			text: "AMPStore"
 		}
-	]
+	],
+  sites: {
+    'amptalk': {
+      'search': {
+        'action': 'https://talk.alliedmedia.org/search/site',
+        'method': 'post',
+        'name': 'keys'
+      },
+      'footerboxes': [
+        'Copyright &copy; 2013 Allied Media Projects'
+      ]
+    },
+    'amphome': {
+      'search': {
+        'action': 'https://www.alliedmedia.org/search/node',
+        'method': 'post',
+        'name': 'keys'
+      },
+      'footerboxes': [
+        'Copyright &copy; 2013 Allied Media Projects'
+      ]
+    },
+    'amc': {
+      'search': {
+        'action': 'https://amc.alliedmedia.org/search/node',
+        'method': 'post',
+        'name': 'keys'
+      },
+      'footerboxes': [
+        'Copyright &copy; 2013 Allied Media Projects'
+      ]
+    }
+  },
 };
 
 module.exports = PooContent;
