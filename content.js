@@ -35,7 +35,7 @@ var PooContent = {
         'name': 'keys'
       },
       'footerboxes': [
-        'Copyright &copy; 2013 Allied Media Projects'
+        'This work is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.</a>'
       ]
     },
     'amphome': {
@@ -45,7 +45,7 @@ var PooContent = {
         'name': 'keys'
       },
       'footerboxes': [
-        'Copyright &copy; 2013 Allied Media Projects'
+        'This work is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.</a>'
       ]
     },
     'amc': {
@@ -55,7 +55,7 @@ var PooContent = {
         'name': 'keys'
       },
       'footerboxes': [
-        'Copyright &copy; 2013 Allied Media Projects'
+        'This work is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.</a>'
       ]
     }
   },
