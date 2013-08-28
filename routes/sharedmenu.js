@@ -35,17 +35,17 @@ exports.oldpoo = function(req, res) {
   var cb = ( req.query.callback && !req.query.callback.match(/\W/) ) ? req.query.callback : 'callback';
 
   // load shared menus
-  fs.readFile(__dirname + '/lib/sharedmenus.js', function(err, data) {
+  fs.readFile(__dirname + '/sharedmenu/sharedmenus.js', function(err, data) {
     sharedmenus = data;
   });
 
   // load templates
-  fs.readFile(__dirname + '/lib/tmplBundle.js', function(err, data) {
+  fs.readFile(__dirname + '/sharedmenu/tmplBundle.js', function(err, data) {
     templates = data;
   });
 
   // load templates
-  fs.readFile(__dirname + '/lib/sharebuttons.js', function(err, data) {
+  fs.readFile(__dirname + '/sharedmenu/sharebuttons.js', function(err, data) {
     buttons = data;
   });
 
