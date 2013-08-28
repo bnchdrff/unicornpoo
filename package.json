@@ -5,6 +5,8 @@
     "start": "poo.js"
   },
   "main" : "./poo.js",
+  "domain": "unicornpoo.alliedmedia.org",
+  "user": "user1",
   "repository": {
     "type": "git",
     "url": "git://github.com/bnchdrff/unicornpoo.git"
@@ -12,6 +14,7 @@
   "version": "0.0.2",
   "dependencies": {
     "ejs": "0.8.x",
-    "express": "3.x"
+    "express": "3.x",
+    "pantry": "0.5.x"
   }
 }

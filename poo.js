@@ -17,10 +17,12 @@ var conf = {
 
 var routes = {
   general: require('./routes/general'),
+  sharedmenu: require('./routes/sharedmenu'),
   headerfooter: require('./routes/headerfooter')
 };
 
 poo.get('/', routes.general.index);
+poo.get('/sharedmenu', routes.sharedmenu.oldpoo);
 poo.get('/headerfooter/:sitename', routes.headerfooter.pooforsite);
 
 poo.listen(conf.port);
