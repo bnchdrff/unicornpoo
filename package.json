@@ -6,7 +6,7 @@
   },
   "main" : "./poo.js",
   "domain": "unicornpoo.alliedmedia.org",
-  "user": "user1",
+  "user": "bc",
   "repository": {
     "type": "git",
     "url": "git://github.com/bnchdrff/unicornpoo.git"
