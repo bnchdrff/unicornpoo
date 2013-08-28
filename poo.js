@@ -27,17 +27,3 @@ poo.get('/headerfooter/:sitename', routes.headerfooter.pooforsite);
 
 poo.listen(conf.port);
 
-// test target
-var test = express();
-
-test.use(express.static(__dirname + '/test'));
-
-test.get('/', function(req, res) {
-  fs.readFile(__dirname + '/fif-testbed.html', function(err, data) {
-    res.setHeader('Content-Type', 'text/html');
-    res.setHeader('Content-Length', data.length);
-    res.end(data);
-  });
-});
-
-test.listen(3001);
