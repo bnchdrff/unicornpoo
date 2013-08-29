@@ -189,62 +189,6 @@ ul#footer-networklinks {
   padding-left: 36px;
 }
 
-/* articles */
-
-#syndicated-news article {
-  margin: 0 10px;
-  padding: 14px 0;
-  border-bottom: 1px dashed #000;
-  clear: both;
-  min-height: 160px;
-}
-
-#syndicated-news article:last-child {
-  border-bottom: 0 none;
-}
-
-#syndicated-news article .lead-image {
-  display: block;
-  float: left;
-  padding: 10px 20px 10px 0;
-}
-
-#syndicated-news article .deets {
-  padding: 0;
-  height: 140px;
-  vertical-align: middle;
-  display: table-cell;
-}
-
-#syndicated-news article .news-title a:link,
-#syndicated-news article .news-title a:visited {
-  font: 22px/33px "TitilliumText22LRegular", Arial, sans-serif;
-  text-decoration: none;
-  border-bottom: 2px solid #00FF00;
-  color: #000;
-}
-
-#syndicated-news article .news-title a:active,
-#syndicated-news article .news-title a:hover {
-  color: #9900FF;
-}
-
-#syndicated-news article .body {
-  margin-top: 20px;
-  line-height: 150%;
-}
-
-#syndicated-news article .date {
-  text-transform: uppercase;
-}
-
-#more-syndicated {
-  display: block;
-  margin: 10px;
-  color: black;
-  text-transform: uppercase;
-}
-
 #shared-footer ul#impressum .feed-icon {
   color: #8c8c8c;
   display: block;
@@ -256,8 +200,3 @@ ul#footer-networklinks {
   background: url(images/rss.png) no-repeat;
 }
 
-/* hide a365 for now */
-
-#footer-box-a365 {
-  display: none !important;
-}
