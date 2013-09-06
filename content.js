@@ -16,6 +16,11 @@ var PooContent = {
 			title: "Detroit Future",
 			text: "DF"
 		},
+               {
+			url: "http://detroitdjc.org",
+			title: "Detroit Digital Justice Coalition",
+			text: "DDJC"
+		},
 		{
 			url: "http://talk.alliedmedia.org",
 			title: "AMPTalk",
