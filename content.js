@@ -1,37 +1,37 @@
 /* Unicornpoo content */
 var PooContent = {
-	links: [
-		{
-			url: "http://alliedmedia.org",
-			title: "Allied Media Projects",
-			text: "AMP"
-		},
-		{
-			url: "http://amc.alliedmedia.org",
-			title: "Allied Media Conference",
-			text: "AMC"
-		},
-		{
-			url: "http://detroitfuture.org",
-			title: "Detroit Future",
-			text: "DF"
-		},
+  links: [
+    {
+      url: "http://alliedmedia.org",
+      title: "Allied Media Projects",
+      text: "AMP"
+    },
+    {
+      url: "http://amc.alliedmedia.org",
+      title: "Allied Media Conference",
+      text: "AMC"
+    },
+    {
+      url: "http://detroitfuture.org",
+      title: "Detroit Future",
+      text: "DF"
+    },
                {
-			url: "http://detroitdjc.org",
-			title: "Detroit Digital Justice Coalition",
-			text: "DDJC"
-		},
-		{
-			url: "http://talk.alliedmedia.org",
-			title: "AMPTalk",
-			text: "AMPTalk"
-		},
-		{
-			url: "https://store.alliedmedia.org",
-			title: "AMPStore",
-			text: "AMPStore"
-		}
-	],
+      url: "http://detroitdjc.org",
+      title: "Detroit Digital Justice Coalition",
+      text: "DDJC"
+    },
+    {
+      url: "http://talk.alliedmedia.org",
+      title: "AMPTalk",
+      text: "AMPTalk"
+    },
+    {
+      url: "https://store.alliedmedia.org",
+      title: "AMPStore",
+      text: "AMPStore"
+    }
+  ],
   sites: {
     'amptalk': {
       'search': {
