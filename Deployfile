@@ -5,8 +5,4 @@
     "start": "poo.js"
   },
   "domain": "unicornpoo.alliedmedia.org",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/bnchdrff/unicornpoo.git"
-  }
 }
