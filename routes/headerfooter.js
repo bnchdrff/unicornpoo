@@ -29,7 +29,10 @@ exports.pooforsite = function(req, res) {
                   .replace(/'/g, '"').replace(/  */g, ' ').replace(/\n/g, '');
   var templateoutput = "var header = '" + header +  "';\nvar footer = '" + footer + "';\n";
 
+  var poobase = (process.env.NODE_ENV == 'development') ? '//localhost:3000/' : '//unicornpoo.alliedmedia.org/';
+
   var script = "(function(window) {" + "\n" +
+               'var poobase = "' + poobase + '";' +"\n" +
                'var poosites = ' + JSON.stringify(content.sites) + ';' +"\n" +
                'var poositename = ' + "'" + content.sitename + "'" + ';' +"\n" +
                "var document = window.document;" +"\n" +
