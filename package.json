@@ -9,6 +9,7 @@
   "user": "bc",
   "version": "0.0.2",
   "dependencies": {
+    "async": "0.2.x",
     "ejs": "0.8.x",
     "express": "3.x",
     "pantry": "0.5.x"

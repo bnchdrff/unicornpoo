@@ -10,6 +10,7 @@ var fs = require('fs');
 var poo = express();
 
 poo.use(express.static(__dirname + '/public'));
+poo.use(express.compress());
 
 var prod_conf = {
   port: process.env.PORT || 3000
