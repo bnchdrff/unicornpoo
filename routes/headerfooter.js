@@ -73,9 +73,6 @@ exports.pooforsite = function(req, res) {
                  "})(window.helpMeIamFrameInFrame ? parent.window : window);";
 
     res.setHeader('Content-Type', 'application/javascript');
-    console.log('length');
-    console.log(script.length);
-    //res.setHeader('Content-Length', script.length);
     res.end(script);
   });
 };
