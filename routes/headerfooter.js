@@ -35,19 +35,19 @@ exports.pooforsite = function(req, res) {
   var funs = [
     function(cb) {
       pantry.fetch('https://www.alliedmedia.org/news/json/2?poops', function(err, item) {
-        content.poofeeds.amphome = item.stories;
+        content.poofeeds.amphome = item.stories.slice(0, 3);
         cb();
       });
     },
     function(cb) {
       pantry.fetch('http://beta.allied365.org/activity-json', function(err, item) {
-        content.poofeeds.a365 = item.activities;
+        content.poofeeds.a365 = item.activities.slice(0, 3);
         cb();
       });
     },
     function(cb) {
       pantry.fetch('https://talk.alliedmedia.org/sites/talk.alliedmedia.org/files/js/feed-talks.js', function(err, item) {
-        content.poofeeds.amptalk = item.response.docs;
+        content.poofeeds.amptalk = item.response.docs.slice(0, 3);
         cb();
       });
     }
