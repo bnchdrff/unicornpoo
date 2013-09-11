@@ -1,5 +1,11 @@
 /* Unicornpoo content */
 var PooContent = {
+  impressum: {
+    name: 'Allied Media Projects',
+    slogan: 'Media strategies for a more just and creative world.',
+    contact_link_text: 'Contact Us',
+    contact_link_url: 'http://alliedmedia.org/contact?cat=0'
+  },
   links: [
     {
       url: "http://alliedmedia.org",
