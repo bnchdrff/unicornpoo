@@ -1,4 +1,7 @@
 /* Unicornpoo content */
+
+var defaultfooterbox = '<ul><li>Buy things at the AMP Store:</li><li><a href="https://store.alliedmedia.org/transformative-arts-practice-space-prints-moon-in-femme"><img height=50 width=50 src="https://store.alliedmedia.org/media/catalog/product/cache/1/thumbnail/60x60/9df78eab33525d08d6e5fb8d27136e95/m/o/moon_in_femme2.jpg"></a><a href="https://store.alliedmedia.org/fierce-fashion-future-totes"><img height=50 width=50 src="https://store.alliedmedia.org/media/catalog/product/cache/1/thumbnail/60x60/9df78eab33525d08d6e5fb8d27136e95/f/f/fff_tote_bag_pic.jpg"></a><a href="https://store.alliedmedia.org/amc2012kitofpartst"><img height=50 width=50 src="https://store.alliedmedia.org/media/catalog/product/cache/1/thumbnail/60x60/9df78eab33525d08d6e5fb8d27136e95/a/m/amctshirt-07.jpg"></a></li><li>Join our mailinglist:<br><form method="post" action="http://oi.vresp.com?fid=02945ca4d1"><input name="email_address"><input type="submit" style="form-submit" value="SUBSCRIBE"></form></li><li>This work is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.</a></li></ul>';
+
 var PooContent = {
   impressum: {
     name: 'Allied Media Projects',
@@ -46,7 +49,7 @@ var PooContent = {
         'name': 'keys'
       },
       'footerboxes': [
-        '<ul><li>Buy things at the AMP Store:</li><li><a href="https://store.alliedmedia.org/transformative-arts-practice-space-prints-moon-in-femme"><img src="https://store.alliedmedia.org/media/catalog/product/cache/1/thumbnail/60x60/9df78eab33525d08d6e5fb8d27136e95/m/o/moon_in_femme2.jpg"></a><a href="https://store.alliedmedia.org/fierce-fashion-future-totes"><img src="https://store.alliedmedia.org/media/catalog/product/cache/1/thumbnail/60x60/9df78eab33525d08d6e5fb8d27136e95/f/f/fff_tote_bag_pic.jpg"></a></li><li><a href="https://store.alliedmedia.org/amc2012kitofpartst"><img src="https://store.alliedmedia.org/media/catalog/product/cache/1/thumbnail/60x60/9df78eab33525d08d6e5fb8d27136e95/a/m/amctshirt-07.jpg"></a></li><li>This work is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.</a></li></ul>'
+        defaultfooterbox
       ]
     },
     'amphome': {
@@ -56,7 +59,7 @@ var PooContent = {
         'name': 'keys'
       },
       'footerboxes': [
-        'This work is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.</a>'
+        defaultfooterbox
       ]
     },
     'amc': {
@@ -66,7 +69,7 @@ var PooContent = {
         'name': 'keys'
       },
       'footerboxes': [
-        'This work is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.</a>'
+        defaultfooterbox
       ]
     }
   },
