@@ -32,26 +32,44 @@ exports.pooforsite = function(req, res) {
   // Build content.poofeeds manually
   // TODO someday: make feed specs a conf object and dynamically build funs array
   content.poofeeds = {};
-  var funs = [
-    function(cb) {
-      pantry.fetch('https://www.alliedmedia.org/news/json/2?poops', function(err, item) {
-        content.poofeeds.amphome = item.stories.slice(0, 3);
+  if (process.env.NODE_ENV == 'development') {
+    var funs = [
+      function(cb) {
+        content.poofeeds.amphome = JSON.parse(fs.readFileSync(__dirname + '/../test-feeds/amphomes', 'ascii')).stories.slice(0, 3);
         cb();
-      });
-    },
-    function(cb) {
-      pantry.fetch('http://beta.allied365.org/activity-json', function(err, item) {
-        content.poofeeds.a365 = item.activities.slice(0, 3);
+      },
+      function(cb) {
+        content.poofeeds.a365 = JSON.parse(fs.readFileSync(__dirname + '/../test-feeds/a365s', 'ascii')).activities.slice(0, 3);
         cb();
-      });
-    },
-    function(cb) {
-      pantry.fetch('https://talk.alliedmedia.org/sites/talk.alliedmedia.org/files/js/feed-talks.js', function(err, item) {
-        content.poofeeds.amptalk = item.response.docs.slice(0, 3);
+      },
+      function(cb) {
+        eval('var whatever = ' + fs.readFileSync(__dirname + '/../test-feeds/amptalks', 'ascii'));
+        content.poofeeds.amptalk = whatever.response.docs.slice(0, 3);
         cb();
-      });
-    }
-  ];
+      }
+    ];
+  } else {
+    var funs = [
+      function(cb) {
+        pantry.fetch('https://www.alliedmedia.org/news/json/2?poops', function(err, item) {
+          content.poofeeds.amphome = item.stories.slice(0, 3);
+          cb();
+        });
+      },
+      function(cb) {
+        pantry.fetch('http://beta.allied365.org/activity-json', function(err, item) {
+          content.poofeeds.a365 = item.activities.slice(0, 3);
+          cb();
+        });
+      },
+      function(cb) {
+        pantry.fetch('https://talk.alliedmedia.org/sites/talk.alliedmedia.org/files/js/feed-talks.js', function(err, item) {
+          content.poofeeds.amptalk = item.response.docs.slice(0, 3);
+          cb();
+        });
+      }
+    ];
+  }
 
   // Serve request after pantry is full
   async.parallel(funs, function() {
