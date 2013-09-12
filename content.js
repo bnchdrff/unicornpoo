@@ -43,6 +43,7 @@ var PooContent = {
   ],
   sites: {
     'amptalk': {
+      'content_id': 'container',
       'search': {
         'action': 'https://talk.alliedmedia.org/search/site',
         'method': 'post',
@@ -53,6 +54,7 @@ var PooContent = {
       ]
     },
     'amphome': {
+      'content_id': 'zone-branding',
       'search': {
         'action': 'https://www.alliedmedia.org/search/node',
         'method': 'post',
@@ -63,6 +65,7 @@ var PooContent = {
       ]
     },
     'amc': {
+      'content_id': 'container',
       'search': {
         'action': 'https://amc.alliedmedia.org/search/node',
         'method': 'post',

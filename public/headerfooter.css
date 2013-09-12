@@ -17,9 +17,9 @@
 }
 
 #shared-header {
-  height: 51px;
+  height: 65px;
   margin: 0;
-  padding: 7px 132px 5px 40px;
+  padding: 0;
   text-transform: uppercase;
   font-family: "TitilliumText22LRegular", Verdana, Geneva, "DejaVu Sans",  sans-serif;
   font-size: 12px;
@@ -27,19 +27,26 @@
   font-weight: normal;
   background-color: white;
   background-repeat: no-repeat;
-  background-position: 100% 100%;
+  background-position: 0% 100%;
   background-image: url(images/logo.png);
 }
 
-#shared-header li {
-  display: inline;
-  margin: 0 0 0 6px;
-  padding: 2px 6px 0 0;
+#shared-header ul {
 }
 
-/* header search form */
+#shared-header li {
+  display: inline-block;
+  margin: 0 0 0 6px;
+  padding: 15px 6px 0 0;
+}
 
-#shared-header form {
+/* header search */
+
+#shared-header-search {
+  width: 260px;
+}
+
+#shared-header-search form {
   display: inline;
 }
 
@@ -60,7 +67,7 @@
 }
 
 #shared-header #search-chooser {
-  display: none;
+  visibility: hidden;
 }
 
 /* shared footer */
@@ -169,7 +176,7 @@
   color: #8c8c8c;
 }
 
-ul#footer-networklinks {
+#footer-networklinks {
   margin-top: 15px;
   border-top: 1px solid #8c8c8c;
   padding: 15px 0;
@@ -212,3 +219,17 @@ ul#footer-networklinks {
   padding: 0;
 }
 
+#shared-header-donate {
+  background: #ff3f00;
+  color: white;
+  font: 20px/26px TitilliumText22LMedium;
+  width: 130px;
+}
+
+#shared-header-donate a:link,
+#shared-header-donate a:visited,
+#shared-header-donate a:active,
+#shared-header-donate a:hover {
+  color: white;
+  text-decoration: none;
+}
