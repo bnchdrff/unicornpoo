@@ -29,20 +29,28 @@
   background-repeat: no-repeat;
   background-position: 0% 100%;
   background-image: url(images/logo.png);
+  -webkit-box-shadow:  0px 2px 2px 0px rgba(0, 0, 0, .75);
+  box-shadow:  0px 2px 2px 0px rgba(0, 0, 0, .75);
+  margin-bottom: -16px;
+  position: relative;
+  z-index: 666;
 }
 
 #shared-header ul {
+  margin-left: 140px;
+  float: left;
 }
 
 #shared-header li {
   display: inline-block;
   margin: 0 0 0 6px;
-  padding: 15px 6px 0 0;
+  padding: 29px 6px 0 0;
 }
 
 /* header search */
 
 #shared-header-search {
+  float: right;
   width: 260px;
 }
 
@@ -51,23 +59,70 @@
 }
 
 #shared-header input[type="text"] {
-  border: 0;
-  border-bottom: 1px dashed black;
+  border: 1px solid black;
+  background-color: #e8e8e8;
+  width: 203px;
+}
+
+#shared-header input[type="text"]:focus {
+  background-color: white;
 }
 
 #shared-header input[type="submit"] {
-  border: 1px solid black;
-  background: white;
+  background: white url(//unicornpoo.alliedmedia.org/headerfooter/search.png) no-repeat 0 0;
   border-radius: 0;
-  text-transform: uppercase;
-  font-family: "TitilliumText22LMedium", Arial, sans-serif;
-  font-weight: normal;
-  font-size: 12px;
-  padding: 4px 7px 1px;
+  border: 0;
+  text-indent: -138em;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  height: 17px;
+  width: 17px;
 }
 
-#shared-header #search-chooser {
+#search-chooser {
   visibility: hidden;
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  padding-top: 8px;
+  background: transparent url(//unicornpoo.alliedmedia.org/headerfooter/purp_tri.png) no-repeat 4em 0;
+}
+
+#search-chooser a {
+  outline: 0;
+}
+
+#shared-header-donate {
+  display: block;
+  float: right;
+  background: #ff3f00;
+  color: white;
+  font: 20px/26px TitilliumText22LMedium;
+  text-align: center;
+  width: 130px;
+  height: 65px;
+  padding: 0 !important;
+}
+
+#shared-header-donate:link,
+#shared-header-donate:visited,
+#shared-header-donate:active,
+#shared-header-donate:hover {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+#shared-header-donate:after {
+  display: block;
+  content: '';
+  width: 130px;
+  height: 5px;
+  background: transparent url(//unicornpoo.alliedmedia.org/headerfooter/redborder.png) repeat;
+  position: absolute;
+  top: 65px;
+  z-index: 9999;
 }
 
 /* shared footer */
@@ -219,17 +274,3 @@
   padding: 0;
 }
 
-#shared-header-donate {
-  background: #ff3f00;
-  color: white;
-  font: 20px/26px TitilliumText22LMedium;
-  width: 130px;
-}
-
-#shared-header-donate a:link,
-#shared-header-donate a:visited,
-#shared-header-donate a:active,
-#shared-header-donate a:hover {
-  color: white;
-  text-decoration: none;
-}

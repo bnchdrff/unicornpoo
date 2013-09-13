@@ -54,7 +54,7 @@ var PooContent = {
       ]
     },
     'amphome': {
-      'content_id': 'zone-branding',
+      'content_id': 'block-system-main-menu',
       'search': {
         'action': 'https://www.alliedmedia.org/search/node',
         'method': 'post',
