@@ -148,6 +148,15 @@
   width: 130px;
   height: 65px;
   padding: 0 !important;
+  position: relative;
+  z-index: 888;
+}
+
+#sparkles {
+  background: transparent url(http://images2.layoutsparks.com/1/124954/glitter-flash-stars-blue.gif);
+  height: 80px;
+  width: 180px;
+  z-index: 777;
 }
 
 #shared-header-donate:link,
