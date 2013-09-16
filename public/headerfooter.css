@@ -83,13 +83,16 @@
 }
 
 #shared-header-search form {
-  display: inline;
+  display: inline-block;
+  border: 1px solid black;
+  background-color: #e8e8e8;
 }
 
 #shared-header input[type="text"] {
-  border: 1px solid black;
-  background-color: #e8e8e8;
+  background: transparent;
+  border: 0;
   width: 203px;
+  height: 19px;
 }
 
 #shared-header input[type="text"]:focus {
@@ -97,7 +100,7 @@
 }
 
 #shared-header input[type="submit"] {
-  background: white url(//unicornpoo.alliedmedia.org/headerfooter/search.png) no-repeat 0 0;
+  background: transparent url(//unicornpoo.alliedmedia.org/headerfooter/search.png) no-repeat 50% 50%;
   border-radius: 0;
   border: 0;
   text-indent: -138em;
@@ -105,8 +108,8 @@
   padding: 0;
   margin: 0;
   display: inline-block;
-  height: 17px;
-  width: 17px;
+  height: 19px;
+  width: 19px;
 }
 
 #search-chooser {
