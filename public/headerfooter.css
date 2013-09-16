@@ -63,10 +63,23 @@
   display: none;
 }
 
+#shared-header ul:before {
+  content: 'Our network:';
+  position: absolute;
+  top: 1em;
+  left: .5em;
+  color: #777;
+}
+
+#shared-header.mobile  ul:before {
+  display: none;
+}
+
 #shared-header ul {
   margin: 0 0 0 140px;
   padding: 0;
   float: left;
+  position: relative;
 }
 
 #shared-header li {
