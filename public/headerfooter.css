@@ -237,7 +237,7 @@
 
 
 #shared-footer ul li {
-  margin: 0 0 5px 0;
+  margin: 0 0 10px 0;
   padding: 0;
   list-style-type: none;
   list-style-image: none;
@@ -330,5 +330,18 @@
 #shared-footer input {
   margin: 3px 0 0 0;
   padding: 0;
+}
+
+#shared-footer input[type="submit"] {
+  background: transparent url(//unicornpoo.alliedmedia.org/headerfooter/subscribe.png) no-repeat 0 0;
+  border-radius: 0;
+  border: 0;
+  text-indent: -138em;
+  overflow: hidden;
+  padding: 0;
+  margin: 5px 0 0 0;
+  display: inline-block;
+  height: 16px;
+  width: 56px;
 }
 
