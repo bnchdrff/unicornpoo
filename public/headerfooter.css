@@ -267,10 +267,6 @@
   list-style-type: none;
 }
 
-#shared-footer ul ul {
-  padding-top: 10px;
-}
-
 #shared-footer a:link,
 #shared-footer a:visited {
   color: white;
@@ -284,6 +280,8 @@
 }
 
 #shared-footer h4 {
+  margin: 0 0 10px 0;
+  padding: 0;
   font: 13px/15px normal "TitilliumText22LRegular";
   text-transform: uppercase;
   color: #8c8c8c;
