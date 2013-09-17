@@ -44,11 +44,6 @@ var PooContent = {
   sites: {
     'amptalk': {
       'content_id': 'container',
-      'search': {
-        'action': 'https://talk.alliedmedia.org/search/site',
-        'method': 'post',
-        'name': 'keys'
-      },
       'footerboxes': [
         defaultfooterbox
       ]
