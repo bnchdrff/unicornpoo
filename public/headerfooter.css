@@ -144,10 +144,11 @@
   background: #ff3f00;
   color: white;
   font: 20px/26px TitilliumText22LMedium;
+  font-weight: bold;
   text-align: center;
   width: 130px;
-  height: 65px;
-  padding: 0 !important;
+  height: 61px;
+  padding: 4px 0 0 0 !important;
   position: relative;
   z-index: 888;
 }
