@@ -42,6 +42,12 @@ var PooContent = {
     }
   ],
   sites: {
+    'ampstore': {
+      'content_id': 'container',
+      'footerboxes': [
+        defaultfooterbox
+      ]
+    },
     'amptalk': {
       'content_id': 'container',
       'footerboxes': [
