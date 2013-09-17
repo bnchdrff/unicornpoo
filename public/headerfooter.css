@@ -343,8 +343,9 @@
   padding: 0;
 }
 
-#shared-footer input[type="submit"] {
-  width: 200px;
+#shared-footer input[type="text"] {
+  width: 160px;
+  display: block;
 }
 
 #shared-footer input[type="submit"] {
