@@ -65,7 +65,7 @@ var PooContent = {
         defaultfooterbox
       ]
     },
-    'amc': {
+    'amchome': {
       'content_id': 'container',
       'search': {
         'action': 'https://amc.alliedmedia.org/search/node',
