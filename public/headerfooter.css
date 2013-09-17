@@ -344,6 +344,10 @@
 }
 
 #shared-footer input[type="submit"] {
+  width: 200px;
+}
+
+#shared-footer input[type="submit"] {
   background: transparent url(//unicornpoo.alliedmedia.org/headerfooter/subscribe.png) no-repeat 0 0;
   border-radius: 0;
   border: 0;
