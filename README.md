@@ -12,6 +12,32 @@ Offer local and family-wide search.
 
 Load common css and js.
 
+Embed
+=====
+
+To include the headerfooter in a website, embed this javascript:
+
+```javascript
+(function() {
+  var url = '//unicornpoo.alliedmedia.org/headerfooter/SITENAME';
+  var iframe = document.createElement('iframe');
+  (iframe.frameElement || iframe).style.cssText =
+    "width: 0; height: 0; border: 0";
+  iframe.src = "javascript:false";
+  var where = document.getElementsByTagName('script')[0];
+  where.parentNode.insertBefore(iframe, where);
+  var doc = iframe.contentWindow.document;
+  doc.open().write('<body onload="'+
+    'window.helpMeIamFrameInFrame = true;' +
+    'var js = document.createElement(\'script\');'+
+    'js.src = \''+ url +'\';'+
+    'document.body.appendChild(js);">');
+  doc.close();
+}());
+```
+
+You can either add a new stanza to content.js for SITENAME or just leave it off if you want the site to have default options.
+
 Deployment instructions for AMP
 ===============================
 
