@@ -26,6 +26,9 @@
   line-height: 18px;
   font-weight: normal;
   background-color: white;
+  background-repeat: no-repeat;
+  background-position: 0 5px;
+  background-image: url(headerfooter/AMP_logo_unicornpoo.png);
   -webkit-box-shadow:  0px 2px 2px 0px rgba(0, 0, 0, .75);
   box-shadow:  0px 2px 2px 0px rgba(0, 0, 0, .75);
   margin-bottom: -16px;
@@ -63,8 +66,8 @@
 #shared-header ul:before {
   content: 'Our network:';
   position: absolute;
-  top: 1em;
-  left: .5em;
+  top: 23px;
+  left: 5px;
   color: #777;
 }
 
@@ -73,7 +76,7 @@
 }
 
 #shared-header ul {
-  margin: 0;
+  margin: 0 0 0 140px;
   padding: 0;
   float: left;
   position: relative;
@@ -82,7 +85,7 @@
 #shared-header li {
   display: inline-block;
   margin: 0 0 0 6px;
-  padding: 29px 6px 0 0;
+  padding: 36px 6px 0 0;
 }
 
 /* header search */
@@ -134,7 +137,7 @@
   display: block;
   font-size: 10px;
   text-transform: uppercase;
-  padding-top: 8px;
+  padding-top: 15px;
   background: transparent url(//unicornpoo.alliedmedia.org/headerfooter/purp_tri.png) no-repeat 4em 0;
 }
 
