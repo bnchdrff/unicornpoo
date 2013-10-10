@@ -87,6 +87,26 @@
   padding: 38px 6px 0 0;
 }
 
+#shared-header.biggums li:first-child {
+  position: absolute;
+  left: -140px;
+  display: block;
+  top: 0;
+  height: 60px;
+  width: 140px;
+  padding: 0;
+  margin: 0;
+}
+
+#shared-header.biggums li:first-child a {
+  position: relative;
+  display: inline-block;
+  text-indent: -666em;
+  overflow: hidden;
+  height: 60px;
+  width: 140px;
+}
+
 /* header search */
 
 #shared-header-search {

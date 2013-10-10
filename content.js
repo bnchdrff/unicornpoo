@@ -11,12 +11,12 @@ var PooContent = {
   },
   links: [
     {
-      url: "http://alliedmedia.org",
-      title: "Allied Media Projects",
+      url: "https://alliedmedia.org",
+      title: "Allied Media Projects homepage",
       text: "AMP"
     },
     {
-      url: "http://amc.alliedmedia.org",
+      url: "https://amc.alliedmedia.org",
       title: "Allied Media Conference",
       text: "AMC"
     },
@@ -31,7 +31,7 @@ var PooContent = {
       text: "DDJC"
     },
     {
-      url: "http://talk.alliedmedia.org",
+      url: "https://talk.alliedmedia.org",
       title: "AMPTalk",
       text: "AMPTalk"
     },
