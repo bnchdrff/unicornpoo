@@ -2,7 +2,7 @@
   "name": "unicornpoo",
   "private": true,
   "scripts": {
-    "start": "poo.js"
+    "start": "node poo.js"
   },
   "main" : "./poo.js",
   "domain": "unicornpoo.alliedmedia.org",
