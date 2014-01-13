@@ -39,10 +39,6 @@ exports.pooforsite = function(req, res) {
         cb();
       },
       function(cb) {
-        content.poofeeds.a365 = JSON.parse(fs.readFileSync(__dirname + '/../test-feeds/a365s', 'ascii')).activities.slice(0, 3);
-        cb();
-      },
-      function(cb) {
         eval('var whatever = ' + fs.readFileSync(__dirname + '/../test-feeds/amptalks', 'ascii'));
         content.poofeeds.amptalk = whatever.response.docs.slice(0, 3);
         cb();
@@ -53,12 +49,6 @@ exports.pooforsite = function(req, res) {
       function(cb) {
         pantry.fetch('https://www.alliedmedia.org/news/json/2?poops', function(err, item) {
           content.poofeeds.amphome = item.stories.slice(0, 3);
-          cb();
-        });
-      },
-      function(cb) {
-        pantry.fetch('http://beta.allied365.org/activity-json', function(err, item) {
-          content.poofeeds.a365 = item.activities.slice(0, 3);
           cb();
         });
       },
