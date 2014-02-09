@@ -370,6 +370,15 @@
   padding: 0;
 }
 
+#shared-footer input[type="checkbox"] {
+  float: left;
+}
+
+#shared-footer label.mc-group {
+  display: inline-block;
+  margin-top: 5px;
+}
+
 #shared-footer input[type="text"] {
   width: 160px;
   display: block;
