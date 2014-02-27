@@ -35,11 +35,7 @@ var PooContent = {
       title: "Detroit Digital Justice Coalition",
       text: "DDJC"
     },
-                    {
-      url: "https://www.alliedmedia.org/become-sponsored-project",
-      title: "Sponsored Projects",
-      text: "Sponsored Projects"
-    },
+                 
 {
       url: "https://talk.alliedmedia.org",
       title: "AMPtalk",
