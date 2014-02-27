@@ -21,16 +21,26 @@ var PooContent = {
       text: "AMC"
     },
     {
-      url: "http://detroitfuture.org",
-      title: "Detroit Future",
-      text: "DF"
+      url: "http://detroitdigitalstewards.tumblr.com/",
+      title: "Digital Stewards",
+      text: "Digital Stewards"
+    },
+               {
+      url: "https://alliedmedia.org/news/detroit-future-schools",
+      title: "Detroit Future Schools",
+      text: "Detroit Future Schools"
     },
                {
       url: "http://detroitdjc.org",
       title: "Detroit Digital Justice Coalition",
+      text: "Detroit Digital Justice Coalition"
+    },
+                    {
+      url: "https://www.alliedmedia.org/become-sponsored-project",
+      title: "Sponsored Projects",
       text: "DDJC"
     },
-    {
+{
       url: "https://talk.alliedmedia.org",
       title: "AMPTalk",
       text: "AMPTalk"
