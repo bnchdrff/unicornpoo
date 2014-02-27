@@ -33,22 +33,22 @@ var PooContent = {
                {
       url: "http://detroitdjc.org",
       title: "Detroit Digital Justice Coalition",
-      text: "Detroit Digital Justice Coalition"
+      text: "DDJC"
     },
                     {
       url: "https://www.alliedmedia.org/become-sponsored-project",
       title: "Sponsored Projects",
-      text: "DDJC"
+      text: "Sponsored Projects"
     },
 {
       url: "https://talk.alliedmedia.org",
-      title: "AMPTalk",
-      text: "AMPTalk"
+      title: "AMPtalk",
+      text: "AMPtalk"
     },
     {
       url: "https://store.alliedmedia.org",
-      title: "AMPStore",
-      text: "AMPStore"
+      title: "AMPstore",
+      text: "AMPstore"
     }
   ],
   sites: {
