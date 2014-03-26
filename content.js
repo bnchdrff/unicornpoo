@@ -81,6 +81,12 @@ var PooContent = {
       'footerboxes': [
         defaultfooterbox
       ]
+    },
+    'SITENAME': {
+      'content_id': 'container',
+      'footerboxes': [
+        defaultfooterbox
+      ]
     }
   },
 };
