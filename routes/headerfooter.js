@@ -24,6 +24,7 @@ exports.pooforsite = function(req, res) {
     header: fs.readFileSync(__dirname + '/../lib/poo-header.ejs', 'ascii'),
     footer: fs.readFileSync(__dirname + '/../lib/poo-footer.ejs', 'ascii'),
     pooscript: fs.readFileSync(__dirname + '/../lib/poo-script.js', 'ascii'),
+    buttons: fs.readFileSync(__dirname + '/sharedmenu/sharebuttons.js', 'ascii')
   };
 
   content.sitename = req.params.sitename.replace(/\W/g, '');
@@ -78,6 +79,7 @@ exports.pooforsite = function(req, res) {
                  "var document = window.document;" +"\n" +
                  templateoutput +"\n" +
                  files.pooscript +"\n" +
+                 files.buttons +"\n" +
                  "})(window.helpMeIamFrameInFrame ? parent.window : window);";
 
     res.setHeader('Content-Type', 'application/javascript');
